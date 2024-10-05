@@ -1,12 +1,6 @@
-arr = []
-for _ in range(5):
-    arr.append(list(input()))
+arr = [list(input()) for _ in range(5)]
 
-check = [False, False, False, False, False]
-while False in check:
-    for i in range(len(arr)):
-        if len(arr[i]) == 0:
-            check[i] = True
-            continue
-        print(arr[i][0], end='')
-        arr[i].pop(0)
+for i in range(15):
+    for j in range(5):
+        if i < len(arr[j]):
+            print(arr[j][i], end='')
