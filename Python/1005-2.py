@@ -7,7 +7,7 @@ def f(w, times, arr, memo):
         else:
             memo[w] = times[w] + max(f(v, times, arr, memo) for v in arr[w])
     return memo[w]
-
+    
 T = int(sys.stdin.readline())
 for _ in range(T):
     n, k = map(int, sys.stdin.readline().split())
