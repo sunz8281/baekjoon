@@ -3,6 +3,6 @@ def f(k):
     return memo[k]
 
 n = int(input())
-memo = [0]*(n+1)
+memo = [0]*46
 memo[1], memo[2] = 1, 1
 print(f(n))
