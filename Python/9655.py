@@ -1,0 +1,1 @@
+print("CY" if int(input())%4 in [0, 2] else "SK")
