@@ -1,0 +1,1 @@
+print(*sorted(open(0).readlines()[1:], key=lambda x: int(x.split()[0])), sep='')
