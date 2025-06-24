@@ -1,0 +1,1 @@
+print(str(eval(input().lower().replace('f', 'F').replace('t', 'T'))).lower())
