@@ -1,0 +1,1 @@
+print("F" if input().split().count('9')>0 else "S")
