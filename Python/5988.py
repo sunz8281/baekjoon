@@ -1,0 +1,1 @@
+for n in [*open(0)][1:]: print('eovdedn'[int(n)%2::2])
