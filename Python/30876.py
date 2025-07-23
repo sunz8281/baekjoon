@@ -1,0 +1,1 @@
+print(min([*open(0)][1:], key=lambda x: int(x.split()[1])))
