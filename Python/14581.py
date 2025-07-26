@@ -1,0 +1,1 @@
+print(':fan:'*3+f'\n:fan::{input()}::fan:\n'+':fan:'*3)
