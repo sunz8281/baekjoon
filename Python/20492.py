@@ -1,0 +1,1 @@
+n=int(input()[:-3]);print(n*780,n*956)
