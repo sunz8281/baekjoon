@@ -1,0 +1,1 @@
+print(len([*filter(lambda x:x%2,[int(input())for _ in range(int(input()))])]))
