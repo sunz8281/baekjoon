@@ -1,0 +1,1 @@
+print('\n'.join(map(lambda x: str(len(x)-1), [*open(0)][1:])))
