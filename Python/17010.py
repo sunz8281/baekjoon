@@ -1,0 +1,1 @@
+for l in [*open(0)][1:]:n,c=l.split();print(c*int(n))
