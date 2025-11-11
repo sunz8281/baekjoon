@@ -1,0 +1,1 @@
+print(' '.join(map(lambda c:c+"DORO",[*open(0)][1].split())))
