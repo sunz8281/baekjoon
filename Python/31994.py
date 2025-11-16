@@ -1,0 +1,1 @@
+print(max([*open(0)], key=lambda x:int(x.split()[1])).split()[0])
