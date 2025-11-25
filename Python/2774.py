@@ -1,0 +1,1 @@
+for x in [*open(0)][1:]:print(len(set(x))-1)
