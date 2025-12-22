@@ -1,0 +1,1 @@
+for l in [*open(0)][:-1]:print({"a":"Panthera tigris","f":"Forsythia koreana","t":"Pinus densiflora"}[l[0]])
