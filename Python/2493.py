@@ -8,8 +8,7 @@ for i in range(n):
         if tower[stack[-1]] < tower[i]:
             stack.pop()
         else:
-            result = stack.pop()
-            stack.append(result)
+            result = stack[-1]
             break
     print(result+1, end=' ')
     stack.append(i)
