@@ -1,0 +1,1 @@
+print("YNeos"[sum(map(int, open(0)))>1500::2])
