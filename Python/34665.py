@@ -1,0 +1,1 @@
+print(1550if input()!=input()else 0)
