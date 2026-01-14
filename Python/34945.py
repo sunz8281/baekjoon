@@ -1,0 +1,1 @@
+print("OShu cMcye sGso!d !"[int(input())>5::2])
