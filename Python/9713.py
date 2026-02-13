@@ -1,0 +1,1 @@
+for n in [*open(0)][1:]:print(sum(i for i in range(1,int(n)+1,2)))
